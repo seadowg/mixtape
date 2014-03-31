@@ -1,0 +1,2 @@
+require './mixtape'
+run Mixtape
