@@ -3,7 +3,7 @@
 > A homemade music compilation (usually on cassette or CD-R) that contains all your favourite tracks.
 Often you give such a compilation to the guy or gal of your fancy in hopes that it will help you win their heart.
 
-> **\- Urban Dictionary**
+> **\- Lairor, Urban Dictionary**
 
 Mixtapes were cool right? Today you can do Spotify playlists, Soundcloud etc but none of
 those really require much work (at least not from the person building the list) and you're
