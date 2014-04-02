@@ -1,9 +1,10 @@
 # mixtape
 
-> A homemade music compilation (usually on cassette or CD-R) that contains all your favourite tracks.
-Often you give such a compilation to the guy or gal of your fancy in hopes that it will help you win their heart.
+> A mixtape or mixed-tape is the generic name given to any compilation of songs recorded onto any audio format.
+>
+> A mixtape, which usually reflects the musical tastes of its compiler, can range from a casually selected list of favorite songs, to a conceptual mix of songs linked by a theme or mood, to a highly personal statement tailored to the tape's intended recipient.
 
-> **\- Lairor, Urban Dictionary**
+> **\- Wikipedia entry for "Mixtape"**
 
 Mixtapes were cool right? Today you can do Spotify playlists, Soundcloud etc but none of
 those really require much work (at least not from the person building the list) and you're
