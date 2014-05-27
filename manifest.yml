@@ -1,0 +1,3 @@
+application:
+  - name: mixtape
+    memory: 128mb
