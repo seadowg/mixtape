@@ -1,2 +1,0 @@
-require './mixtape'
-run Mixtape
