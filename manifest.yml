@@ -1,3 +1,4 @@
-application:
-  - name: mixtape
-    memory: 128mb
+applications:
+- name: mixtape
+  memory: 512mb
+  path: target/mixtape-1.0-SNAPSHOT-jar-with-dependencies.jar

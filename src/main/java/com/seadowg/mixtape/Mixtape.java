@@ -13,7 +13,7 @@ import java.lang.RuntimeException;
 
 public class Mixtape {
   public static void main(String[] args) {
-    externalStaticFileLocation("/var/www/public");
+    staticFileLocation("/public");
 
     get("/", (req, res) -> {
       MustacheFactory mustacheFactory = new DefaultMustacheFactory("templates");
