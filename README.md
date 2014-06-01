@@ -20,25 +20,21 @@ it's a little effort. That's good though right?
 $ git clone git@github.com:seadowg/mixtape.git lauras-tape
 ```
 
-2. Copy the songs you want into `public/songs`. To dictate order you
+2. Copy the songs you want into `src/main/resources/public/songs`. To dictate order you
 need to name the tracks `0.mp3`, `1.mp3` etc (yes just mp3 for the moment).
 
-3. Make sure you have [Java 8](https://www.ruby-lang.org/en/) with [bundler](http://bundler.io/) installed and then bundle
-in the project directory:
-```bash
-$ bundle
-```
+3. Make sure you have [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) installed.
 
 4. Bring the server up:
 ```bash
-$ bundle exec rackup
+$ ./gradle run
 ```
 
-5. Check that everything is working by visiting [http://localhost:9292](http://localhost:9292).
+5. Check that everything is working by visiting [http://localhost:9292](http://localhost:4567).
 
 6. Deploy the app somewhere. Let's use [Heroku](http://heroku.com) for simplicity (you'll need a Heroku account for this):
 ```bash
-$ git add public/songs
+$ git add .
 $ git commit -m "Added songs :)"
 $ heroku create lauras-tape
 $ git push heroku master
