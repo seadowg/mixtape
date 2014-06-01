@@ -23,7 +23,7 @@ $ git clone git@github.com:seadowg/mixtape.git lauras-tape
 2. Copy the songs you want into `public/songs`. To dictate order you
 need to name the tracks `0.mp3`, `1.mp3` etc (yes just mp3 for the moment).
 
-3. Make sure you have [Ruby](https://www.ruby-lang.org/en/) with [bundler](http://bundler.io/) installed and then bundle
+3. Make sure you have [Java 8](https://www.ruby-lang.org/en/) with [bundler](http://bundler.io/) installed and then bundle
 in the project directory:
 ```bash
 $ bundle

@@ -3,3 +3,6 @@
 .vagrant/
 target/
 Vagrantfile
+build/
+gradle/
+.gradle/
