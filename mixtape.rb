@@ -5,7 +5,7 @@ class Mixtape < Sinatra::Base
 
   get "/" do
     songs = Dir.entries("public/songs").reject do |f|
-      [".", "..", ".gitkeep"].include?(f)
+      [".", "..", ".gitkeep", ".DS_Store"].include?(f)
     end
 
     erb :index, :locals => { :song_count => songs.length }
