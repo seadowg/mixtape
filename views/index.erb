@@ -24,15 +24,20 @@ https://github.com/seadowg/mixtape
     <script type="text/javascript">
       $(document).ready(function() {
         function setupNextPlay(i) {
-          $('#' + i).bind('ended', function() {
+          $('#' + i).bind("ended", function() {
             $('#' + (i + 1))[0].play();
           });
         }
 
-        $("#0")[0].play();
         for (var i = 0; i < <%= song_count %>; i++) {
           setupNextPlay(i);
         }
+
+        $(document).bind("touchend", function() {
+          $("#0")[0].play();
+        });
+
+        $("#0")[0].play();
       });
     </script>
   </head>
