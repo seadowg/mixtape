@@ -37,7 +37,10 @@ https://github.com/seadowg/mixtape
           $("#0")[0].play();
         });
 
-        $("#0")[0].play();
+        $("#play_button").click(function() {
+          $("#play_button").hide();
+          $("#0")[0].play();
+        });
       });
     </script>
   </head>
@@ -45,5 +48,7 @@ https://github.com/seadowg/mixtape
     <% song_count.times do |i| %>
       <audio id='<%= i %>'><source src='songs/<%= i %>.mp3' type='audio/mpeg'></audio>
     <% end %>
+
+     <button id="play_button" type="button">Play</button>
   </body>
 </html>
