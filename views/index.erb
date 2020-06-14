@@ -17,7 +17,16 @@ https://github.com/seadowg/mixtape
     <title>_</title>
     <style>
       body {
+        padding: 8em;
         background-color: black;
+        display: flex;
+        justify-content: center;
+      }
+
+      #play_button {
+        height: 2em;
+        font-size: 32px;
+        flex-grow: 1
       }
     </style>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -49,6 +58,6 @@ https://github.com/seadowg/mixtape
       <audio id='<%= i %>'><source src='songs/<%= i %>.mp3' type='audio/mpeg'></audio>
     <% end %>
 
-     <button id="play_button" type="button">Play</button>
+    <button id="play_button" type="button">Play</button>
   </body>
 </html>
