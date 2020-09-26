@@ -29,11 +29,10 @@ https://github.com/seadowg/mixtape
         flex-grow: 1
       }
     </style>
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript">
-      $(document).ready(function() {
+      document.addEventListener("DOMContentLoaded", function() {
         function setupNextPlay(i) {
-          $('#' + i).bind("ended", function() {
+          document.getElementById(i).addEventListener("ended", function() {
             $('#' + (i + 1))[0].play();
           });
         }
@@ -42,13 +41,9 @@ https://github.com/seadowg/mixtape
           setupNextPlay(i);
         }
 
-        $(document).bind("touchend", function() {
-          $("#0")[0].play();
-        });
-
-        $("#play_button").click(function() {
-          $("#play_button").hide();
-          $("#0")[0].play();
+        document.getElementById("play_button").addEventListener("click", function() {
+          document.getElementById("play_button").style.visibility = "hidden";
+          document.getElementById("0").play();
         });
       });
     </script>
